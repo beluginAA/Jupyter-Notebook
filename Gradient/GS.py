@@ -52,7 +52,6 @@ def grad_descent_v1(f, deriv, x0=None, lr=0.1, iters=100, callback=None):
 def plot_convergence_1d(func, x_steps, y_steps, ax, grid=None, title=""):
     """
     Функция отрисовки шагов градиентного спуска. 
-    Не меняйте её код без необходимости! 
     :param func: функция, которая минимизируется градиентным спуском
     :param x_steps: np.array(float) — шаги алгоритма по оси Ox
     :param y_steps: np.array(float) — шаги алгоритма по оси Оу
